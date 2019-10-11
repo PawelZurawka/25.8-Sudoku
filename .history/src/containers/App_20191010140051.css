@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #a2a5ad;
+}
+
+.app {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.logo {
+  margin-top: 25px;
+}
+
+.diff {
+  margin-bottom: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.info {
+  font-size: 24px;
+  margin-top: 0;
+  color: #fff;
+}

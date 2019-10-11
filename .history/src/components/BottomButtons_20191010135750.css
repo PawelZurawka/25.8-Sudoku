@@ -1,0 +1,30 @@
+.bottomBtnsContainer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  width: 160px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #2f7eb9;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #2f7eb9;
+  border: 2px solid #2f7eb9;
+  font-weight: bold;
+}

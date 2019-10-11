@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background-color: #a2a5ad;
+}
+
+.app {
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.logo {
+  margin-top: 25px;
+}

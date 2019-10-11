@@ -1,0 +1,8 @@
+.newGameBtn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+}
