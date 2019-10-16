@@ -6,7 +6,7 @@ const BottomButtons = props => {
     return (
       <div className={style.bottomBtnsContainer}>
         <button className={style.btn} onClick={() => props.solve()}>
-          Solution
+          See solve
         </button>
         <button className={style.btn} onClick={() => props.check()}>
           Check
