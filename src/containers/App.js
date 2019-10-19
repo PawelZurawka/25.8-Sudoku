@@ -15,7 +15,7 @@ class App extends React.Component {
       topButtonsVisible: false,
       bottomButtonsVisible: false,
       level: '',
-      info: 'Good luck!'
+      info: ''
     };
     this.newBoard = this.newBoard.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -40,7 +40,8 @@ class App extends React.Component {
       initialBoard: randomBoard,
       topButtonsVisible: false,
       bottomButtonsVisible: true,
-      level
+      level,
+      info: 'Good luck!'
     });
   }
 
