@@ -1,13 +1,15 @@
-import React from 'react';
-import style from './TopButtons.css';
+import React from 'react'
+import style from './TopButtons.css'
 
 const TopButtons = props => {
   if (!props.show) {
     return (
-      <button className={style.newGameBtn} onClick={() => props.newGame()}>
-        New game
-      </button>
-    );
+      <>
+        <button className={style.newGameBtn} onClick={() => props.newGame()}>
+          New game
+        </button>
+      </>
+    )
   } else {
     return (
       <div className={style.diffBtnsContainer}>
@@ -43,8 +45,8 @@ const TopButtons = props => {
           Inhuman
         </button>
       </div>
-    );
+    )
   }
-};
+}
 
-export default TopButtons;
+export default TopButtons

@@ -1,10 +1,10 @@
-import React from 'react';
-import Tile from './Tile';
-import style from './Board.css';
+import React from 'react'
+import Tile from './Tile'
+import style from './Board.css'
 
 const Board = props => {
-  const boardSplit = props.board.split('');
-  const initialBoardSplit = props.initialBoard.split('');
+  const boardSplit = props.board.split('')
+  const initialBoardSplit = props.initialBoard.split('')
   const value = boardSplit.map((number, index) => {
     return (
       <Tile
@@ -21,10 +21,10 @@ const Board = props => {
         index={index}
         key={index}
       />
-    );
-  });
-  if (props.show) return <div className={style.board}>{value}</div>;
-  else return '';
-};
+    )
+  })
+  if (props.show) return <div className={style.board}>{value}</div>
+  else return ''
+}
 
-export default Board;
+export default Board
